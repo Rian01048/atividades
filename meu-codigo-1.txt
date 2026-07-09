@@ -1,0 +1,55 @@
+// Alterando o arquivo
+
+using System;
+
+public class Program
+{
+    public static void Main(string[] args)
+    {
+        
+        while (true)
+        {
+            Console.WriteLine("===== Verificação de idade =====");
+            Console.WriteLine("1 - Verificar idade\n" +
+                "2 - Sair do programa\n");
+            byte escolha = byte.Parse(Console.ReadLine());
+            if (escolha == 1)
+            {
+                Console.Clear();
+                Console.WriteLine("Digite a idade: ");
+                byte idade = byte.Parse(Console.ReadLine());
+                if (idade >= 18)
+                {
+                    Console.WriteLine("===== Maior de idade =====");
+                    Thread.Sleep(3000);
+                    Console.Clear();
+                }
+                else
+                {
+                    Console.WriteLine("===== Menor de idade =====");
+                    Thread.Sleep(3000);
+                    Console.Clear();
+                }
+            }
+            else if (escolha == 2)
+            {
+                Console.Clear();
+                Console.WriteLine("===== Finalizando o sistema... =====");
+                Thread.Sleep(3000);
+                break;
+            }
+            else
+            {
+                Console.WriteLine("Escolha 1 ou 2....");
+                Thread.Sleep(2000);
+                Console.Clear();
+            }
+            
+           
+                   
+               
+
+           
+        }
+    }
+}
