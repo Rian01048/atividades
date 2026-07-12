@@ -223,16 +223,27 @@ main {
     gap: 30px;
 }
 
+.product-grid .info .button {
+
+    margin: 35px;
+    margin-left: 5px;
+    display: inline-block;
+    background-color: var(--health-green);
+    color: var(--white);
+    text-decoration: none;
+    padding: 14px 32px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 179, 126, 0.3);
+}
+
 .product-item {
     background-color: var(--white);
     border-radius: 12px;
-    overflow: hidden;
     text-decoration: none;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    display: flex;
     flex-direction: column;
-    border: 1px solid #e2e8f0;
 }
 
 .product-item:hover {
