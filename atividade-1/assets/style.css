@@ -118,6 +118,7 @@ nav ul.leftside li a {
 .hero .leftside h1 {
     font-size: 3rem;
     color: var(--dark-blue);
+    
     margin-bottom: 20px;
     line-height: 1.2;
 }
@@ -264,11 +265,5 @@ footer .logo a {
 
 footer .logo a::before {
     color: #38bdf8; 
-}
-
-footer .copyrights p {
-    font-size: 0.9rem;
-    color: #cbd5e1;
-    font-family:Georgia, 'Times New Roman', Times, serif
 }
 
