@@ -1,6 +1,3 @@
-/* =========================================
-   RESET GERAL E VARIÁVEIS
-========================================= */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
 :root {
@@ -31,11 +28,9 @@ body {
     padding: 0 20px;
 }
 
-/* =========================================
-   CABEÇALHO (HEADER)
-========================================= */
+
 header {
-    background-color: var(--white);
+    background-color: var(--dark-blue);
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
     border-bottom: 3px solid var(--primary-blue);
     position: sticky;
@@ -53,7 +48,7 @@ header .container {
 .logo a {
     font-size: 1.8rem;
     font-weight: 700;
-    color: var(--dark-blue);
+    color: var(--bg-light);
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -80,13 +75,9 @@ nav ul.leftside {
 
 nav ul.leftside li a {
     text-decoration: none;
-    color: var(--text-light);
+    color: var(--bg-light);
     font-weight: 500;
     transition: color 0.3s;
-}
-
-nav ul.leftside li a:hover {
-    color: var(--primary-blue);
 }
 
 .menu {
@@ -107,9 +98,7 @@ nav ul.leftside li a:hover {
     border-radius: 3px;
 }
 
-/* =========================================
-   HERO SECTION (BANNER PRINCIPAL)
-========================================= */
+
 .hero {
     background-color: var(--white);
     padding: 60px 0;
@@ -134,7 +123,7 @@ nav ul.leftside li a:hover {
 }
 
 .hero .leftside p {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     color: var(--text-light);
     margin-bottom: 30px;
     line-height: 1.6;
@@ -165,14 +154,12 @@ nav ul.leftside li a:hover {
 }
 
 .hero .rightside img {
-    max-width: 100%;
+    max-width: 105%;
     height: auto;
     border-radius: 12px;
 }
 
-/* =========================================
-   PESQUISA (SEARCH SECTION)
-========================================= */
+
 .search {
     background-color: var(--primary-blue);
     padding: 50px 0;
@@ -183,7 +170,7 @@ nav ul.leftside li a:hover {
 .search-title {
     font-size: 2rem;
     font-weight: 700;
-    margin-bottom: 25px;
+    margin-bottom: 5px;
 }
 
 .search-slide {
@@ -191,28 +178,7 @@ nav ul.leftside li a:hover {
     margin: 0 auto;
 }
 
-.search-slide input[type="search"] {
-    width: 100%;
-    padding: 18px 25px;
-    border: none;
-    border-radius: 50px;
-    font-size: 1.1rem;
-    outline: none;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-    transition: box-shadow 0.3s;
-}
 
-.search-slide input[type="search"]::placeholder {
-    color: #94a3b8;
-}
-
-.search-slide input[type="search"]:focus {
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
-}
-
-/* =========================================
-   MAIN - GRADE DE PRODUTOS
-========================================= */
 main {
     padding: 60px 0;
 }
@@ -294,9 +260,6 @@ main {
 }
 
 
-/* =========================================
-   RODAPÉ (FOOTER)
-========================================= */
 footer {
     background-color: var(--dark-blue);
     color: var(--white);
@@ -316,39 +279,12 @@ footer .logo a {
 }
 
 footer .logo a::before {
-    color: #38bdf8; /* Azul claro para contrastar no fundo escuro */
+    color: #38bdf8; 
 }
 
 footer .copyrights p {
     font-size: 0.9rem;
     color: #cbd5e1;
+    font-family:Georgia, 'Times New Roman', Times, serif
 }
 
-/* =========================================
-   RESPONSIVIDADE (MOBILE & TABLETS)
-========================================= */
-@media (max-width: 900px) {
-    .hero .container {
-        flex-direction: column;
-        text-align: center;
-    }
-    
-    .hero .leftside h1 {
-        font-size: 2.5rem;
-    }
-}
-
-@media (max-width: 768px) {
-    nav ul.leftside {
-        display: none; /* Esconde o menu no celular */
-    }
-    
-    .menu {
-        display: block; /* Mostra o ícone hambúrguer */
-    }
-
-    footer .container {
-        flex-direction: column;
-        text-align: center;
-    }
-}

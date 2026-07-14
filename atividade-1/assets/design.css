@@ -1,8 +1,4 @@
-/* =========================================
-   PÁGINA DE DETALHES DO PRODUTO (DESIGN.CSS)
-========================================= */
 
-/* Reutilizando as variáveis do tema global */
 :root {
     --primary-blue: #0066cc;
     --dark-blue: #004b96;
@@ -13,7 +9,6 @@
     --white: #ffffff;
 }
 
-/* Estrutura Geral */
 * {
     margin: 0;
     padding: 0;
@@ -32,11 +27,9 @@ body {
     padding: 0 20px;
 }
 
-/* =========================================
-   CABEÇALHO (HEADER) - IDÊNTICO AO ANTERIOR
-========================================= */
+
 header {
-    background-color: var(--white);
+    background-color: var(--dark-blue);
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
     border-bottom: 3px solid var(--primary-blue);
     position: sticky;
@@ -54,7 +47,7 @@ header .container {
 .logo a {
     font-size: 1.8rem;
     font-weight: 700;
-    color: var(--dark-blue);
+    color: var(--bg-light);
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -76,14 +69,11 @@ nav ul.leftside {
 
 nav ul.leftside li a {
     text-decoration: none;
-    color: var(--text-light);
+    color: var(--bg-light);
     font-weight: 500;
     transition: color 0.3s;
 }
 
-nav ul.leftside li a:hover {
-    color: var(--primary-blue);
-}
 
 .menu {
     display: none;
@@ -103,14 +93,11 @@ nav ul.leftside li a:hover {
     border-radius: 3px;
 }
 
-/* =========================================
-   CONTEÚDO PRINCIPAL (ÁREA DO PRODUTO)
-========================================= */
+
 main {
     padding: 60px 0;
 }
 
-/* Container flex para dividir foto e informações */
 main .leftside {
     background-color: var(--white);
     border-radius: 12px;
@@ -124,7 +111,6 @@ main .product-item {
     align-items: flex-start;
 }
 
-/* Área da foto (Lado Esquerdo) */
 main .photo {
     flex: 1;
     max-width: 450px;
@@ -143,7 +129,6 @@ main .photo img {
     object-fit: contain;
 }
 
-/* Área de informações (Lado Direito) */
 main .rightside {
     flex: 1.2;
     display: flex;
@@ -176,7 +161,6 @@ main .info .product-item h1 {
     margin-left: 5px;
 }
 
-/* Lista de Benefícios/Características */
 .info-product ul {
     list-style: none;
     margin-bottom: 30px;
@@ -199,7 +183,6 @@ main .info .product-item h1 {
     font-weight: 700;
 }
 
-/* Preço e Botão */
 main .product-price {
     font-size: 2.2rem;
     color: var(--health-green);
@@ -255,9 +238,7 @@ main .button:hover {
     transform: translateY(-2px);
 }
 
-/* =========================================
-   RODAPÉ (FOOTER) - IDÊNTICO AO ANTERIOR
-========================================= */
+
 footer {
     background-color: var(--dark-blue);
     color: var(--white);
@@ -281,38 +262,8 @@ footer .logo a {
 }
 
 footer .copyrights {
-    font-size: 0.9rem;
+    font-size: 1.0rem;
     color: #cbd5e1;
+    font-family: 'Times New Roman', Times, serif;
 }
 
-/* =========================================
-   RESPONSIVIDADE (MOBILE)
-========================================= */
-@media (max-width: 768px) {
-    nav ul.leftside {
-        display: none;
-    }
-    
-    .menu {
-        display: block;
-    }
-
-    main .product-item {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    main .photo {
-        max-width: 100%;
-        width: 100%;
-    }
-
-    main .button {
-        width: 100%;
-    }
-
-    footer .container {
-        flex-direction: column;
-        text-align: center;
-    }
-}
