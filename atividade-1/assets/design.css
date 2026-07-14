@@ -222,6 +222,34 @@ main .button {
     width: fit-content;
 }
 
+.description-box {
+    background-color: var(--white);
+    padding: 30px;
+    margin-top: 60px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.description-box h2 {
+    color: var(--dark-blue);
+    margin-bottom: 15px;
+    font-size: 1.4rem;
+    border-bottom: 2px solid var(--bg-light);
+    padding-bottom: 10px
+}
+
+.description-box p {
+    line-height: 1.8;
+    color: var(--text-dark);
+    font-size: 1rem;
+    margin-right: 25px;
+}
+
+.description-box li {
+    margin-left: 20px;
+    line-height: 1.5;
+}
+
 main .button:hover {
     background-color: #00996b;
     transform: translateY(-2px);
