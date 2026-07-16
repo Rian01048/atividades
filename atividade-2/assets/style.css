@@ -6,7 +6,7 @@
     --health-green: #00b37e;
     --text-dark: #334155;
     --text-light: #64748b;
-    --bg-light: #f8fafc;
+    --bg-light: #ffffff;
     --white: #ffffff;
 }
 
@@ -70,5 +70,112 @@ nav .leftside {
     display: flex;
     list-style: none;
     gap: 30px;
+}
+
+nav .leftside li a {
+    text-decoration: none;
+    color: var(--bg-light);
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+main {
+    padding: 60px 0;
+    background-color: #ffffff;
+}
+
+img {
+    width: 300px;
+    height: auto;
+    margin-left: -400px;
+    margin-top: -700px;
+}
+
+.formulario-box {
+    max-width: 500px;
+    height: 370px;
+    margin-left: 850px;
+    padding: 20px;
+    background-color: var(--dark-blue);
+    border-radius: 6px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.formulario-box h2 {
+    color: #ffffff;
+    height: 50px;
+    text-align: center;
+}
+
+.formulario-box label {
+    color: #f8fafc;
+    display: block;
+    margin: 15px 0 5px;
+    font-weight: bold;
+}
+
+
+.formulario-box input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+.formulario-box button {
+  width: 100%;
+  padding: 12px;
+  background-color: #0066cc;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  margin-top: 50px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.formulario-box button:hover {
+  background-color: #0052a3;
+}
+
+footer {
+    background-color: var(--dark-blue);
+    color: var(--white);
+    padding: 40px 0;
+}
+
+footer .copyright {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 190px;
+    gap: 20px;
+}
+
+footer h2 {
+    font-size: 1.9rem;
+    margin-left: 100px;
+    font-weight: 700;
+    color: var(--bg-light);
+    text-decoration: none;
+    display: flex;
+    margin-top: -120px;
+}
+
+footer h2::before {
+    content: '+';
+    color: var(--health-green);
+    font-size: 2rem;
+    margin-right: 6px;
+    font-weight: 700;
+}
+
+footer p {
+    text-align: right;
+    margin-right: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: -120px;
 }
 
