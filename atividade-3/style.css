@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.title h1 {
+    color: #333;
+    margin-bottom: 25px;
+    font-size: 24px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label {
+    color: #555;
+    font-size: 14px;
+    text-align: left;
+    font-weight: 600;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+
+
+form button {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1; 
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+    transition: background-color 0.2s, transform 0.1s;
+}
+
+form {
+    flex-wrap: wrap; 
+}
+
+
+button[onclick="calcularSoma(event)"] {
+    background-color: #28a745; 
+}
+
+button[onclick="calcularSoma(event)"]:hover {
+    background-color: #218838;
+}
+
+button[onclick="calcularSoma(event)"]::before {
+    content: "Somar";
+}
+
+button[onclick="calcularMultiplicacao(event)"] {
+    background-color: #007bff;
+}
+
+button[onclick="calcularMultiplicacao(event)"]:hover {
+    background-color: #0069d9;
+}
+
+button[onclick="calcularMultiplicacao(event)"]::before {
+    content: "Multiplicar";
+}
+
+form button:active {
+    transform: scale(0.98);
+}
+
+#resultado {
+    margin-top: 25px;
+    padding: 15px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    border-left: 4px solid #007bff;
+    font-size: 16px;
+    color: #333;
+    text-align: left;
+    min-height: 50px;
+}
