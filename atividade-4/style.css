@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    background-color: #0f861e;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.01);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+button {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #000000;
+    transition: background-color 0.2s, transform 0.1s;
+}
+
+button[onclick="mostrarGato(event)"]:hover {
+    background-color: rgb(32, 156, 228);
+}
+button[onclick="mostrarCachorro(event)"]:hover {
+    background-color: rgb(32, 156, 228);
+}
+button[onclick="mostrarLeao(event)"]:hover {
+    background-color: rgb(32, 156, 228);
+}
+button[onclick="mostrarElefante(event)"]:hover {
+    background-color: rgb(32, 156, 228);
+}
