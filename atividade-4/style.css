@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: aliceblue;
+    background-color: rgb(2, 61, 0);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,10 +24,26 @@ body {
     text-align: center;
 }
 
+.container h1 {
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    position: relative;
+    top: -15px;
+}
+
+img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border: 7px solid white;
+}
+
 button {
     display: inline-flex;
     justify-content: center;
     align-items: center;
+    margin-top: 20px;
     flex: 1;
     padding: 12px;
     border: none;
@@ -39,15 +55,15 @@ button {
     transition: background-color 0.2s, transform 0.1s;
 }
 
-button[onclick="mostrarGato(event)"]:hover {
+button[onclick="mostrarAnimal('gato')"]:hover {
     background-color: rgb(32, 156, 228);
 }
-button[onclick="mostrarCachorro(event)"]:hover {
+button[onclick="mostrarAnimal('cachorro')"]:hover {
     background-color: rgb(32, 156, 228);
 }
-button[onclick="mostrarLeao(event)"]:hover {
+button[onclick="mostrarAnimal('leao')"]:hover {
     background-color: rgb(32, 156, 228);
 }
-button[onclick="mostrarElefante(event)"]:hover {
+button[onclick="mostrarAnimal('elefante')"]:hover {
     background-color: rgb(32, 156, 228);
 }
