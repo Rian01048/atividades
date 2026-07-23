@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Modal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Galeria de Animais</h1>
+        <div>
+            <button id="btnGato">Gato</button>
+            <button id="btnCachorro">Cachorro</button>
+            <button id="btnLeao">Leão</button>
+            <button id="btnElefante">Elefante</button>
+            <button id="btnTubarao">Tubarão</button>
+        </div>
+
+        <div class="container-imagem">
+            <img id="imagemAnimal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZ9FB6PuC9IiIpdnGWaC4-d_6MT_g5n0-bUPvt7GheaDRJ1mdZdkB7Xr16&s=10">
+        </div>
+
+        <button id="btnModal">Ver detalhes</button>
+
+        <div id="modal" class="modal-conteudo">
+            <h2>Informação</h2>
+
+            <p id="Descricao">
+                Aqui aparecerá a descrição do animal
+            </p>
+
+            <button id="btnFechar">
+                Fechar
+            </button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+
+</body>
+</html>
