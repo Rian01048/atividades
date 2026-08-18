@@ -1,0 +1,14 @@
+C:\Users\rians\source\repos\atividade5\atividade5\bin\Debug\net8.0\atividade5.exe
+C:\Users\rians\source\repos\atividade5\atividade5\bin\Debug\net8.0\atividade5.deps.json
+C:\Users\rians\source\repos\atividade5\atividade5\bin\Debug\net8.0\atividade5.runtimeconfig.json
+C:\Users\rians\source\repos\atividade5\atividade5\bin\Debug\net8.0\atividade5.dll
+C:\Users\rians\source\repos\atividade5\atividade5\bin\Debug\net8.0\atividade5.pdb
+C:\Users\rians\source\repos\atividade5\atividade5\obj\Debug\net8.0\atividade5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rians\source\repos\atividade5\atividade5\obj\Debug\net8.0\atividade5.AssemblyInfoInputs.cache
+C:\Users\rians\source\repos\atividade5\atividade5\obj\Debug\net8.0\atividade5.AssemblyInfo.cs
+C:\Users\rians\source\repos\atividade5\atividade5\obj\Debug\net8.0\atividade5.csproj.CoreCompileInputs.cache
+C:\Users\rians\source\repos\atividade5\atividade5\obj\Debug\net8.0\atividade5.dll
+C:\Users\rians\source\repos\atividade5\atividade5\obj\Debug\net8.0\refint\atividade5.dll
+C:\Users\rians\source\repos\atividade5\atividade5\obj\Debug\net8.0\atividade5.pdb
+C:\Users\rians\source\repos\atividade5\atividade5\obj\Debug\net8.0\atividade5.genruntimeconfig.cache
+C:\Users\rians\source\repos\atividade5\atividade5\obj\Debug\net8.0\ref\atividade5.dll
