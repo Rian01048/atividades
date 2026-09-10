@@ -1,0 +1,5 @@
+para utilizar o input no js, deve-se instalar:
+
+--- npm install prompt-sync --- (Terminal)
+
+--- const prompt = require("prompt-sync")() --- chamar a variavel para ela fazer o processamento de entrada de dados do usuario
