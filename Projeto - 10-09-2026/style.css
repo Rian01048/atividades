@@ -7,43 +7,62 @@ body {
     background-color: #f2f2f2;
     margin: 0;
     padding: 40px;
+    background-color: rgb(15, 15, 15);
 }
 
 .container {
     max-width: 900px;
     margin: auto;
+    background-color: rgb(44, 42, 42);
+    margin: 20px auto;
+    padding: 85px;
+    border-radius: 25px;
+    align-content: center;
 }
 
 h1 {
+    margin-top: -20px;
     text-align: center;
+    color: rgb(255, 255, 255);
 }
 
-
-button {
+#btnCarregar {
     display: block;
     background-color: rgb(255, 94, 0);
     margin: 20px auto;
-    padding: 12px 20px;
+    padding: 25px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+#btnFechar {
+    display: block;
+    background-color: rgb(255, 94, 0);
+    margin: 20px auto;
+    padding: 25px 20px;
     border: none;
     border-radius: 6px;
     cursor: pointer;
 }
 
 span {
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     color: #f2f2f2;
     font-weight: bold;
+    font-size: 20px;
 }
 
 .usuarios {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+    gap: 40px;
 }
 
 p {
-    font-size: 12px;
+    font-size: 15px;
     margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .usuario {
